@@ -1,33 +1,43 @@
+//Abin Cheriyan
+// professor Fiore
+// Assignment 4
 
 #ifndef SIGNALS_SIGNALS_H
 #define SIGNALS_SIGNALS_H
 
-#define maxtime 10
-#define SIGUSR1 10
-#define SIGUSR2 12
-#define SIGTERM 15
+#include <stdio.h>
+#include <stdlib.h>
+#include <signal.h>
+#include <time.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <sys/types.h>
+#include <sys/shm.h>
+#include <unistd.h>
+#include<sys/wait.h>
+#include <pthread.h>
+#include <string.h>
 
-// shared memory struct
-struct sharedvalues
-{
-    int SIGUSR1sent;
-    int SIGUSR1received;
-    int SIGUSR2sent;
-    int SIGUSR2received;
-    int SIGUSR1report;
-    int SIGUSR2report;
-    int signalcounter;
+#define TEST
+#define TIME_EXECUTION
+#define BILLION 1000000000
 
-    int totalsignals;
+struct shared_val {
     pthread_mutex_t mutex;
+    int signal1sent;
+    int signal2sent;
+    int signal1received;
+    int signal2received;
+    char log[7][40];
+    struct timespec start;
+    int signal1report;
+    int signal2report;
 };
 
-// reporting process struct
-struct signals
-{
-    int signal;
-    int time;
-};
+struct shared_val *shared_pointer;
+pthread_mutexattr_t attr;
+int shm_id;
 
-struct shared_val * pointer;
+pid_t pids[8];
+void printcurrenttime();
 #endif //SIGNALS_SIGNALS_H
