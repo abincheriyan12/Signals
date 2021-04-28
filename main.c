@@ -157,7 +157,7 @@ void signalgenerator()
 //other signal type by modifying its signal mask. When a signal arrives,
 //the handler increments shared signal received counter associated
 //with signal type.
-void signalhandler(int signal)
+void signalhandler(int  signal)
 {
     if(signal == SIGUSR1)
     {
