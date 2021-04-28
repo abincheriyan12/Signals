@@ -1,0 +1,687 @@
+ CYCLE NUMBER 1 
+System Time:  0.000000
+Signal 1 Sent:  6
+Signal 2 Sent:  7 
+Signal 1 Received:  12 
+Signal 2 Received:  11 
+Avg Time Between Signal 1:  0.000000 
+Avg Time Between Signal 2:  0.000000 
+
+ CYCLE NUMBER 2 
+System Time:  0.000000
+Signal 1 Sent:  6
+Signal 2 Sent:  18 
+Signal 1 Received:  12 
+Signal 2 Received:  32 
+Avg Time Between Signal 1:  0.000000 
+Avg Time Between Signal 2:  0.000000 
+
+ CYCLE NUMBER 3 
+System Time:  1.000000
+Signal 1 Sent:  10
+Signal 2 Sent:  27 
+Signal 1 Received:  18 
+Signal 2 Received:  47 
+Avg Time Between Signal 1:  0.041667 
+Avg Time Between Signal 2:  0.015152 
+
+ CYCLE NUMBER 4 
+System Time:  1.000000
+Signal 1 Sent:  15
+Signal 2 Sent:  32 
+Signal 1 Received:  28 
+Signal 2 Received:  56 
+Avg Time Between Signal 1:  0.060897 
+Avg Time Between Signal 2:  0.024411 
+
+ CYCLE NUMBER 5 
+System Time:  2.000000
+Signal 1 Sent:  24
+Signal 2 Sent:  36 
+Signal 1 Received:  40 
+Signal 2 Received:  63 
+Avg Time Between Signal 1:  0.080897 
+Avg Time Between Signal 2:  0.037744 
+
+ CYCLE NUMBER 6 
+System Time:  2.000000
+Signal 1 Sent:  24
+Signal 2 Sent:  46 
+Signal 1 Received:  40 
+Signal 2 Received:  81 
+Avg Time Between Signal 1:  0.097564 
+Avg Time Between Signal 2:  0.046077 
+
+ CYCLE NUMBER 7 
+System Time:  3.000000
+Signal 1 Sent:  30
+Signal 2 Sent:  50 
+Signal 1 Received:  52 
+Signal 2 Received:  90 
+Avg Time Between Signal 1:  0.114048 
+Avg Time Between Signal 2:  0.055818 
+
+ CYCLE NUMBER 8 
+System Time:  3.000000
+Signal 1 Sent:  33
+Signal 2 Sent:  57 
+Signal 1 Received:  58 
+Signal 2 Received:  104 
+Avg Time Between Signal 1:  0.126979 
+Avg Time Between Signal 2:  0.063171 
+
+ CYCLE NUMBER 9 
+System Time:  3.000000
+Signal 1 Sent:  40
+Signal 2 Sent:  60 
+Signal 1 Received:  70 
+Signal 2 Received:  111 
+Avg Time Between Signal 1:  0.136238 
+Avg Time Between Signal 2:  0.069343 
+
+ CYCLE NUMBER 10 
+System Time:  4.000000
+Signal 1 Sent:  48
+Signal 2 Sent:  63 
+Signal 1 Received:  86 
+Signal 2 Received:  117 
+Avg Time Between Signal 1:  0.145540 
+Avg Time Between Signal 2:  0.076361 
+
+ CYCLE NUMBER 11 
+System Time:  4.000000
+Signal 1 Sent:  54
+Signal 2 Sent:  72 
+Signal 1 Received:  94 
+Signal 2 Received:  129 
+Avg Time Between Signal 1:  0.153277 
+Avg Time Between Signal 2:  0.082133 
+
+ CYCLE NUMBER 12 
+System Time:  5.000000
+Signal 1 Sent:  57
+Signal 2 Sent:  84 
+Signal 1 Received:  98 
+Signal 2 Received:  145 
+Avg Time Between Signal 1:  0.161781 
+Avg Time Between Signal 2:  0.088002 
+
+ CYCLE NUMBER 13 
+System Time:  5.000000
+Signal 1 Sent:  69
+Signal 2 Sent:  87 
+Signal 1 Received:  114 
+Signal 2 Received:  149 
+Avg Time Between Signal 1:  0.168528 
+Avg Time Between Signal 2:  0.093270 
+
+ CYCLE NUMBER 14 
+System Time:  6.000000
+Signal 1 Sent:  80
+Signal 2 Sent:  87 
+Signal 1 Received:  136 
+Signal 2 Received:  149 
+Avg Time Between Signal 1:  0.174925 
+Avg Time Between Signal 2:  0.099141 
+
+ CYCLE NUMBER 15 
+System Time:  6.000000
+Signal 1 Sent:  87
+Signal 2 Sent:  90 
+Signal 1 Received:  148 
+Signal 2 Received:  155 
+Avg Time Between Signal 1:  0.180330 
+Avg Time Between Signal 2:  0.104404 
+
+ CYCLE NUMBER 16 
+System Time:  7.000000
+Signal 1 Sent:  88
+Signal 2 Sent:  99 
+Signal 1 Received:  150 
+Signal 2 Received:  173 
+Avg Time Between Signal 1:  0.186164 
+Avg Time Between Signal 2:  0.109551 
+
+ CYCLE NUMBER 17 
+System Time:  7.000000
+Signal 1 Sent:  92
+Signal 2 Sent:  105 
+Signal 1 Received:  160 
+Signal 2 Received:  185 
+Avg Time Between Signal 1:  0.191376 
+Avg Time Between Signal 2:  0.114076 
+
+ CYCLE NUMBER 18 
+System Time:  7.000000
+Signal 1 Sent:  93
+Signal 2 Sent:  114 
+Signal 1 Received:  162 
+Signal 2 Received:  202 
+Avg Time Between Signal 1:  0.196237 
+Avg Time Between Signal 2:  0.117965 
+
+ CYCLE NUMBER 19 
+System Time:  8.000000
+Signal 1 Sent:  96
+Signal 2 Sent:  121 
+Signal 1 Received:  168 
+Signal 2 Received:  216 
+Avg Time Between Signal 1:  0.201310 
+Avg Time Between Signal 2:  0.121900 
+
+ CYCLE NUMBER 20 
+System Time:  8.000000
+Signal 1 Sent:  96
+Signal 2 Sent:  131 
+Signal 1 Received:  168 
+Signal 2 Received:  237 
+Avg Time Between Signal 1:  0.206129 
+Avg Time Between Signal 2:  0.125319 
+
+ CYCLE NUMBER 21 
+System Time:  8.000000
+Signal 1 Sent:  96
+Signal 2 Sent:  141 
+Signal 1 Received:  168 
+Signal 2 Received:  256 
+Avg Time Between Signal 1:  0.210719 
+Avg Time Between Signal 2:  0.128319 
+
+ CYCLE NUMBER 22 
+System Time:  9.000000
+Signal 1 Sent:  103
+Signal 2 Sent:  144 
+Signal 1 Received:  180 
+Signal 2 Received:  263 
+Avg Time Between Signal 1:  0.215264 
+Avg Time Between Signal 2:  0.131465 
+
+ CYCLE NUMBER 23 
+System Time:  9.000000
+Signal 1 Sent:  107
+Signal 2 Sent:  150 
+Signal 1 Received:  190 
+Signal 2 Received:  275 
+Avg Time Between Signal 1:  0.219427 
+Avg Time Between Signal 2:  0.134343 
+
+ CYCLE NUMBER 24 
+System Time:  10.000000
+Signal 1 Sent:  114
+Signal 2 Sent:  153 
+Signal 1 Received:  202 
+Signal 2 Received:  281 
+Avg Time Between Signal 1:  0.223553 
+Avg Time Between Signal 2:  0.137340 
+
+ CYCLE NUMBER 25 
+System Time:  10.000000
+Signal 1 Sent:  118
+Signal 2 Sent:  159 
+Signal 1 Received:  210 
+Signal 2 Received:  293 
+Avg Time Between Signal 1:  0.227362 
+Avg Time Between Signal 2:  0.140099 
+
+ CYCLE NUMBER 26 
+System Time:  10.000000
+Signal 1 Sent:  123
+Signal 2 Sent:  164 
+Signal 1 Received:  222 
+Signal 2 Received:  303 
+Avg Time Between Signal 1:  0.230859 
+Avg Time Between Signal 2:  0.142663 
+
+ CYCLE NUMBER 27 
+System Time:  11.000000
+Signal 1 Sent:  126
+Signal 2 Sent:  171 
+Signal 1 Received:  228 
+Signal 2 Received:  316 
+Avg Time Between Signal 1:  0.234464 
+Avg Time Between Signal 2:  0.145258 
+
+ CYCLE NUMBER 28 
+System Time:  11.000000
+Signal 1 Sent:  132
+Signal 2 Sent:  175 
+Signal 1 Received:  240 
+Signal 2 Received:  324 
+Avg Time Between Signal 1:  0.237765 
+Avg Time Between Signal 2:  0.147698 
+
+ CYCLE NUMBER 29 
+System Time:  11.000000
+Signal 1 Sent:  132
+Signal 2 Sent:  185 
+Signal 1 Received:  240 
+Signal 2 Received:  345 
+Avg Time Between Signal 1:  0.240953 
+Avg Time Between Signal 2:  0.149916 
+
+ CYCLE NUMBER 30 
+System Time:  12.000000
+Signal 1 Sent:  141
+Signal 2 Sent:  189 
+Signal 1 Received:  254 
+Signal 2 Received:  350 
+Avg Time Between Signal 1:  0.244127 
+Avg Time Between Signal 2:  0.152215 
+
+ CYCLE NUMBER 31 
+System Time:  12.000000
+Signal 1 Sent:  145
+Signal 2 Sent:  198 
+Signal 1 Received:  260 
+Signal 2 Received:  367 
+Avg Time Between Signal 1:  0.247128 
+Avg Time Between Signal 2:  0.154354 
+
+ CYCLE NUMBER 32 
+System Time:  13.000000
+Signal 1 Sent:  149
+Signal 2 Sent:  204 
+Signal 1 Received:  266 
+Signal 2 Received:  379 
+Avg Time Between Signal 1:  0.250183 
+Avg Time Between Signal 2:  0.156526 
+
+ CYCLE NUMBER 33 
+System Time:  13.000000
+Signal 1 Sent:  159
+Signal 2 Sent:  204 
+Signal 1 Received:  286 
+Signal 2 Received:  379 
+Avg Time Between Signal 1:  0.252937 
+Avg Time Between Signal 2:  0.158633 
+
+ CYCLE NUMBER 34 
+System Time:  14.000000
+Signal 1 Sent:  163
+Signal 2 Sent:  210 
+Signal 1 Received:  296 
+Signal 2 Received:  391 
+Avg Time Between Signal 1:  0.255739 
+Avg Time Between Signal 2:  0.160766 
+
+ CYCLE NUMBER 35 
+System Time:  14.000000
+Signal 1 Sent:  165
+Signal 2 Sent:  218 
+Signal 1 Received:  300 
+Signal 2 Received:  406 
+Avg Time Between Signal 1:  0.258423 
+Avg Time Between Signal 2:  0.162756 
+
+ CYCLE NUMBER 36 
+System Time:  14.000000
+Signal 1 Sent:  168
+Signal 2 Sent:  225 
+Signal 1 Received:  306 
+Signal 2 Received:  421 
+Avg Time Between Signal 1:  0.260982 
+Avg Time Between Signal 2:  0.164626 
+
+ CYCLE NUMBER 37 
+System Time:  15.000000
+Signal 1 Sent:  174
+Signal 2 Sent:  229 
+Signal 1 Received:  318 
+Signal 2 Received:  429 
+Avg Time Between Signal 1:  0.263547 
+Avg Time Between Signal 2:  0.166538 
+
+ CYCLE NUMBER 38 
+System Time:  15.000000
+Signal 1 Sent:  182
+Signal 2 Sent:  231 
+Signal 1 Received:  332 
+Signal 2 Received:  433 
+Avg Time Between Signal 1:  0.265925 
+Avg Time Between Signal 2:  0.168383 
+
+ CYCLE NUMBER 39 
+System Time:  15.000000
+Signal 1 Sent:  183
+Signal 2 Sent:  240 
+Signal 1 Received:  336 
+Signal 2 Received:  450 
+Avg Time Between Signal 1:  0.268228 
+Avg Time Between Signal 2:  0.170108 
+
+ CYCLE NUMBER 40 
+System Time:  16.000000
+Signal 1 Sent:  186
+Signal 2 Sent:  247 
+Signal 1 Received:  342 
+Signal 2 Received:  464 
+Avg Time Between Signal 1:  0.270581 
+Avg Time Between Signal 2:  0.171847 
+
+ CYCLE NUMBER 41 
+System Time:  16.000000
+Signal 1 Sent:  192
+Signal 2 Sent:  251 
+Signal 1 Received:  354 
+Signal 2 Received:  472 
+Avg Time Between Signal 1:  0.272799 
+Avg Time Between Signal 2:  0.173515 
+
+ CYCLE NUMBER 42 
+System Time:  16.000000
+Signal 1 Sent:  198
+Signal 2 Sent:  255 
+Signal 1 Received:  366 
+Signal 2 Received:  481 
+Avg Time Between Signal 1:  0.274892 
+Avg Time Between Signal 2:  0.175115 
+
+ CYCLE NUMBER 43 
+System Time:  17.000000
+Signal 1 Sent:  202
+Signal 2 Sent:  261 
+Signal 1 Received:  374 
+Signal 2 Received:  493 
+Avg Time Between Signal 1:  0.277017 
+Avg Time Between Signal 2:  0.176735 
+
+ CYCLE NUMBER 44 
+System Time:  17.000000
+Signal 1 Sent:  206
+Signal 2 Sent:  267 
+Signal 1 Received:  380 
+Signal 2 Received:  505 
+Avg Time Between Signal 1:  0.279051 
+Avg Time Between Signal 2:  0.178281 
+
+ CYCLE NUMBER 45 
+System Time:  18.000000
+Signal 1 Sent:  213
+Signal 2 Sent:  270 
+Signal 1 Received:  395 
+Signal 2 Received:  511 
+Avg Time Between Signal 1:  0.281081 
+Avg Time Between Signal 2:  0.179862 
+
+ CYCLE NUMBER 46 
+System Time:  18.000000
+Signal 1 Sent:  217
+Signal 2 Sent:  276 
+Signal 1 Received:  404 
+Signal 2 Received:  523 
+Avg Time Between Signal 1:  0.283028 
+Avg Time Between Signal 2:  0.181373 
+
+ CYCLE NUMBER 47 
+System Time:  18.000000
+Signal 1 Sent:  224
+Signal 2 Sent:  279 
+Signal 1 Received:  416 
+Signal 2 Received:  529 
+Avg Time Between Signal 1:  0.284869 
+Avg Time Between Signal 2:  0.182834 
+
+ CYCLE NUMBER 48 
+System Time:  19.000000
+Signal 1 Sent:  231
+Signal 2 Sent:  282 
+Signal 1 Received:  430 
+Signal 2 Received:  535 
+Avg Time Between Signal 1:  0.286710 
+Avg Time Between Signal 2:  0.184328 
+
+ CYCLE NUMBER 49 
+System Time:  19.000000
+Signal 1 Sent:  241
+Signal 2 Sent:  282 
+Signal 1 Received:  452 
+Signal 2 Received:  535 
+Avg Time Between Signal 1:  0.288434 
+Avg Time Between Signal 2:  0.185791 
+
+ CYCLE NUMBER 50 
+System Time:  19.000000
+Signal 1 Sent:  251
+Signal 2 Sent:  282 
+Signal 1 Received:  471 
+Signal 2 Received:  535 
+Avg Time Between Signal 1:  0.290051 
+Avg Time Between Signal 2:  0.187225 
+
+ CYCLE NUMBER 51 
+System Time:  20.000000
+Signal 1 Sent:  261
+Signal 2 Sent:  282 
+Signal 1 Received:  491 
+Signal 2 Received:  535 
+Avg Time Between Signal 1:  0.291651 
+Avg Time Between Signal 2:  0.188705 
+
+ CYCLE NUMBER 52 
+System Time:  20.000000
+Signal 1 Sent:  264
+Signal 2 Sent:  289 
+Signal 1 Received:  498 
+Signal 2 Received:  548 
+Avg Time Between Signal 1:  0.293202 
+Avg Time Between Signal 2:  0.190119 
+
+ CYCLE NUMBER 53 
+System Time:  21.000000
+Signal 1 Sent:  266
+Signal 2 Sent:  297 
+Signal 1 Received:  500 
+Signal 2 Received:  565 
+Avg Time Between Signal 1:  0.294787 
+Avg Time Between Signal 2:  0.191534 
+
+ CYCLE NUMBER 54 
+System Time:  21.000000
+Signal 1 Sent:  267
+Signal 2 Sent:  306 
+Signal 1 Received:  504 
+Signal 2 Received:  582 
+Avg Time Between Signal 1:  0.296337 
+Avg Time Between Signal 2:  0.192880 
+
+ CYCLE NUMBER 55 
+System Time:  21.000000
+Signal 1 Sent:  274
+Signal 2 Sent:  309 
+Signal 1 Received:  518 
+Signal 2 Received:  589 
+Avg Time Between Signal 1:  0.297817 
+Avg Time Between Signal 2:  0.194188 
+
+ CYCLE NUMBER 56 
+System Time:  22.000000
+Signal 1 Sent:  284
+Signal 2 Sent:  309 
+Signal 1 Received:  537 
+Signal 2 Received:  589 
+Avg Time Between Signal 1:  0.299282 
+Avg Time Between Signal 2:  0.195533 
+
+ CYCLE NUMBER 57 
+System Time:  22.000000
+Signal 1 Sent:  288
+Signal 2 Sent:  315 
+Signal 1 Received:  544 
+Signal 2 Received:  601 
+Avg Time Between Signal 1:  0.300701 
+Avg Time Between Signal 2:  0.196828 
+
+ CYCLE NUMBER 58 
+System Time:  22.000000
+Signal 1 Sent:  291
+Signal 2 Sent:  322 
+Signal 1 Received:  552 
+Signal 2 Received:  614 
+Avg Time Between Signal 1:  0.302081 
+Avg Time Between Signal 2:  0.198072 
+
+ CYCLE NUMBER 59 
+System Time:  23.000000
+Signal 1 Sent:  297
+Signal 2 Sent:  326 
+Signal 1 Received:  564 
+Signal 2 Received:  622 
+Avg Time Between Signal 1:  0.303468 
+Avg Time Between Signal 2:  0.199333 
+
+ CYCLE NUMBER 60 
+System Time:  23.000000
+Signal 1 Sent:  303
+Signal 2 Sent:  330 
+Signal 1 Received:  576 
+Signal 2 Received:  630 
+Avg Time Between Signal 1:  0.304804 
+Avg Time Between Signal 2:  0.200558 
+
+ CYCLE NUMBER 61 
+System Time:  24.000000
+Signal 1 Sent:  306
+Signal 2 Sent:  337 
+Signal 1 Received:  582 
+Signal 2 Received:  644 
+Avg Time Between Signal 1:  0.306160 
+Avg Time Between Signal 2:  0.201788 
+
+ CYCLE NUMBER 62 
+System Time:  24.000000
+Signal 1 Sent:  306
+Signal 2 Sent:  347 
+Signal 1 Received:  582 
+Signal 2 Received:  664 
+Avg Time Between Signal 1:  0.307495 
+Avg Time Between Signal 2:  0.202961 
+
+ CYCLE NUMBER 63 
+System Time:  24.000000
+Signal 1 Sent:  312
+Signal 2 Sent:  351 
+Signal 1 Received:  592 
+Signal 2 Received:  673 
+Avg Time Between Signal 1:  0.308782 
+Avg Time Between Signal 2:  0.204101 
+
+ CYCLE NUMBER 64 
+System Time:  25.000000
+Signal 1 Sent:  315
+Signal 2 Sent:  358 
+Signal 1 Received:  600 
+Signal 2 Received:  687 
+Avg Time Between Signal 1:  0.310089 
+Avg Time Between Signal 2:  0.205247 
+
+ CYCLE NUMBER 65 
+System Time:  25.000000
+Signal 1 Sent:  320
+Signal 2 Sent:  363 
+Signal 1 Received:  609 
+Signal 2 Received:  697 
+Avg Time Between Signal 1:  0.311354 
+Avg Time Between Signal 2:  0.206358 
+
+ CYCLE NUMBER 66 
+System Time:  25.000000
+Signal 1 Sent:  327
+Signal 2 Sent:  366 
+Signal 1 Received:  624 
+Signal 2 Received:  703 
+Avg Time Between Signal 1:  0.312572 
+Avg Time Between Signal 2:  0.207444 
+
+ CYCLE NUMBER 67 
+System Time:  26.000000
+Signal 1 Sent:  336
+Signal 2 Sent:  367 
+Signal 1 Received:  642 
+Signal 2 Received:  704 
+Avg Time Between Signal 1:  0.313784 
+Avg Time Between Signal 2:  0.208552 
+
+ CYCLE NUMBER 68 
+System Time:  26.000000
+Signal 1 Sent:  338
+Signal 2 Sent:  375 
+Signal 1 Received:  645 
+Signal 2 Received:  721 
+Avg Time Between Signal 1:  0.314972 
+Avg Time Between Signal 2:  0.209620 
+
+ CYCLE NUMBER 69 
+System Time:  27.000000
+Signal 1 Sent:  342
+Signal 2 Sent:  381 
+Signal 1 Received:  654 
+Signal 2 Received:  733 
+Avg Time Between Signal 1:  0.316172 
+Avg Time Between Signal 2:  0.210695 
+
+ CYCLE NUMBER 70 
+System Time:  27.000000
+Signal 1 Sent:  349
+Signal 2 Sent:  384 
+Signal 1 Received:  668 
+Signal 2 Received:  739 
+Avg Time Between Signal 1:  0.317330 
+Avg Time Between Signal 2:  0.211746 
+
+ CYCLE NUMBER 71 
+System Time:  27.000000
+Signal 1 Sent:  356
+Signal 2 Sent:  387 
+Signal 1 Received:  681 
+Signal 2 Received:  745 
+Avg Time Between Signal 1:  0.318449 
+Avg Time Between Signal 2:  0.212774 
+
+ CYCLE NUMBER 72 
+System Time:  28.000000
+Signal 1 Sent:  360
+Signal 2 Sent:  393 
+Signal 1 Received:  688 
+Signal 2 Received:  757 
+Avg Time Between Signal 1:  0.319579 
+Avg Time Between Signal 2:  0.213809 
+
+ CYCLE NUMBER 73 
+System Time:  28.000000
+Signal 1 Sent:  367
+Signal 2 Sent:  396 
+Signal 1 Received:  704 
+Signal 2 Received:  763 
+Avg Time Between Signal 1:  0.320672 
+Avg Time Between Signal 2:  0.214821 
+
+ CYCLE NUMBER 74 
+System Time:  28.000000
+Signal 1 Sent:  369
+Signal 2 Sent:  404 
+Signal 1 Received:  708 
+Signal 2 Received:  778 
+Avg Time Between Signal 1:  0.321744 
+Avg Time Between Signal 2:  0.215798 
+
+ CYCLE NUMBER 75 
+System Time:  29.000000
+Signal 1 Sent:  378
+Signal 2 Sent:  405 
+Signal 1 Received:  725 
+Signal 2 Received:  781 
+Avg Time Between Signal 1:  0.322812 
+Avg Time Between Signal 2:  0.216795 
+
+ CYCLE NUMBER 76 
+System Time:  29.000000
+Signal 1 Sent:  385
+Signal 2 Sent:  408 
+Signal 1 Received:  740 
+Signal 2 Received:  787 
+Avg Time Between Signal 1:  0.323846 
+Avg Time Between Signal 2:  0.217771 
+Time = 30.000000
+
+
+current system time: 4:6:20
