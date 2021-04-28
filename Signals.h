@@ -17,8 +17,8 @@
 #include<sys/wait.h>
 #include <pthread.h>
 #include <string.h>
-
-#define TEST
+//#define SIGNAL_EXECUTION
+//#define TEST
 #define TIME_EXECUTION
 #define BILLION 1000000000
 
