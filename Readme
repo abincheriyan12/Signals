@@ -1,0 +1,12 @@
+The purpose of this project is to have processes responsible for servicing “signals” sent by other peer processes.
+The processes are to be executed concurrently and performance of all process activities are to be monitored and analyzed.
+The Program requires developing a solution using a parent process, four signal
+handling processes, three signal generating processes and a reporting process(total 9 processes).
+For the program, the parent process creates the child processes (8 of them to be used to do the work), controls execution time
+of the child processes and waits for their completion.The program uses two signals for communication: SIGUSR1 and SIGUSR2.
+Each of the signal generating processes will execute in a loop, and during each loop repetition will randomly (using a randomizing function)
+select either SIGUSR1 or SIGUSR2 to send to the processes in its group (its peers). As the prgram runs, there are certwain counters that
+will be incremented and then those will be used to do the math at the end. You could've used the real computer  time to find the time
+elapsed but i decided to use a seperate int to make things easier. But just to see how the real time would look in the
+program, i did add a function that prints out the current time (uses the system time) and it prints it out at the end or
+when you run the test directive.
