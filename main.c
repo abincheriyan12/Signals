@@ -18,9 +18,9 @@ void sleepinterval()
     double random = rand();
     double interval = (double) fmod(random, 0.09) + .01;
     int microseconds = interval * 1000000;
-#ifdef TEST
+    #ifdef TEST
     printf("Sleeping for %f seconds.\n", interval);
-#endif
+    #endif
     usleep(microseconds);
 }
 
@@ -112,9 +112,9 @@ void signalgenerator()
         {
             signal = SIGUSR2;
         }
-#ifdef TEST
+        #ifdef TEST
         printf("We picked a signal. Signal choice: %d... Preparing to send.\n", signal);
-#endif
+        #endif
 
         kill(0, signal); //kill (0, signal)
 
@@ -122,11 +122,11 @@ void signalgenerator()
         {
             pthread_mutex_lock(&shared_pointer -> mutex); //acquire lock
             shared_pointer -> signal1sent++;  //sigusr1 sent counter ++
-#ifdef TEST
+            #ifdef TEST
             printf("Incrementing sent counter for signal 1 by 1!\n");
             printf("New value: %d\n", shared_pointer -> signal1sent);
             printf("Current time: %.10f\n", timeelapsed());
-#endif
+            #endif
             pthread_mutex_unlock(&shared_pointer -> mutex); //release lock
         }
 
@@ -134,11 +134,11 @@ void signalgenerator()
         {
             pthread_mutex_lock(&shared_pointer -> mutex); //acquire lock
             shared_pointer -> signal2sent++; //sigusr2 sent counter ++
-#ifdef TEST
+            #ifdef TEST
             printf("Incrementing sent counter for signal 2 by 1!\n");
             printf("New value: %d\n", shared_pointer -> signal2sent);
             printf("Current time: %.10f\n", timeelapsed());
-#endif
+            #endif
             pthread_mutex_unlock(&shared_pointer -> mutex); //release lock
         }
     }
@@ -156,12 +156,12 @@ void signalhandler(int signal)
     {
         pthread_mutex_lock(&shared_pointer -> mutex); //acquire lock
         shared_pointer -> signal1received++;          //increment sigusr1received
-#ifdef TEST
+        #ifdef TEST
         printf("Incrementing received counter for signal 1 by 1!\n");
         printf("New value: %d\n", shared_pointer -> signal1received);
         printf("Current time: %.10f\n", timeelapsed());
         printcurrenttime();
-#endif
+        #endif
         pthread_mutex_unlock(&shared_pointer -> mutex); //release lock
     }
 }
@@ -173,12 +173,12 @@ void signalhandler2(int signal)
     {
         pthread_mutex_lock(&shared_pointer -> mutex); //acquire lock
         shared_pointer -> signal2received++;          //increment sigusr2received
-#ifdef TEST
+        #ifdef TEST
         printf("Incrementing received counter for signal 2 by 1!\n");
         printf("New value: %d\n", shared_pointer -> signal2received);
         printf("Current time: %.10f\n", timeelapsed());
         printcurrenttime();
-#endif
+        #endif
         pthread_mutex_unlock(&shared_pointer -> mutex); //release lock
     }
 }
@@ -283,9 +283,9 @@ void parentprocess()
         printf("Error creating shared memory space.\n");
         exit(1);
     }
-#ifdef TEST
+    #ifdef TEST
     printf("Shared memory has been created.\n");
-#endif
+    #endif
 
     //Creating shared pointer for access
     shared_pointer = (struct shared_val*) shmat(shm_id, NULL, 0);
@@ -294,9 +294,9 @@ void parentprocess()
         printf("Error creating shared pointer.\n");
         exit(1);
     }
-#ifdef TEST
+    #ifdef TEST
     printf("Shared pointer has been created.\n");
-#endif
+    #endif
 
     //Initializing shared memory
     pthread_mutexattr_init(&attr);
@@ -309,21 +309,21 @@ void parentprocess()
     shared_pointer->signal1report = 0;
     shared_pointer->signal2report = 0;
 
-#ifdef TEST
+    #ifdef TEST
     printf("Shared memory has been initialized.\n");
-#endif
+    #endif
 
     //Setting up the contents of the report
     report();
-#ifdef TEST
+    #ifdef TEST
     printf("Report has been set up.\n");
-#endif
+    #endif
 
     //Start clock when processes are about to be created
     clock_gettime(CLOCK_REALTIME, &shared_pointer->start);
-#ifdef TEST
+    #ifdef TEST
     printf("Clock is starting!\n");
-#endif
+    #endif
 
     //Creating processes
     int i;
@@ -334,36 +334,36 @@ void parentprocess()
 
             if( i == 0 || i == 1 )
             {
-#ifdef TEST
+                #ifdef TEST
                 printf("Signal handling 1 process created.\n");
-#endif
+                #endif
                 loopsignal1();
                 exit(0);
             }
 
             if(i == 2 || i == 3)
             {
-#ifdef TEST
+                #ifdef TEST
                 printf("Signal handling 2 process created.\n");
-#endif
+                #endif
                 loopsignal2();
                 exit(0);
             }
 
             if( i == 4 || i == 5 || i == 6 )
             {
-#ifdef TEST
+                #ifdef TEST
                 printf("Signal generating process created.\n");
-#endif
+                #endif
                 signalgenerator();
                 exit(0);
             }
 
             if(i == 7)
             {
-#ifdef TEST
+                #ifdef TEST
                 printf("Reporting process created.\n");
-#endif
+                #endif
                 reportingprocess();
                 exit(0);
             }
@@ -374,15 +374,15 @@ void parentprocess()
             {
                 continue;
             }
-#ifdef TIME_EXECUTION
+            #ifdef TIME_EXECUTION
             if(i == 7 && timeelapsed() < 30)
             {
                 double time_needed = 30 - timeelapsed();
                 sleep(time_needed);
             }
             exitTrue = 1;
-#endif
-#ifdef SIGNAL_EXECUTION
+            #endif
+            #ifdef SIGNAL_EXECUTION
             int total = shared_pointer->signal1sent + shared_pointer->signal2sent + shared_pointer->signal1received + shared_pointer->signal2received + shared_pointer->signal1report + shared_pointer->signal2report;
             if(i == 7 && !(total >= 100000))
             {
@@ -395,23 +395,23 @@ void parentprocess()
                 exitTrue = 1;
                 break;
             }
-#endif
+            #endif
             printf("Time = %f\n", timeelapsed());
         }
     }
     if(exitTrue == 1)
     {
-#ifdef TEST
+        #ifdef TEST
         printf("cleanup! \n");
-#endif
+        #endif
         for(i = 0; i < 8; i++)
         { //killing children processes
             kill(pids[i], SIGTERM);
         }
         shmdt(shared_pointer); //detach from shared memory region
-#ifdef TEST
+        #ifdef TEST
         printf("Shared memory has been detached and child processes have been destroyed.\n");
-#endif
+        #endif
     }
 }
 
